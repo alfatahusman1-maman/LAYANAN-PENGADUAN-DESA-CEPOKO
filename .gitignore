@@ -1,0 +1,39 @@
+# Flutter / Dart tooling
+/.tools/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/coverage/
+pubspec_overrides.yaml
+
+# Android / Gradle
+**/android/.gradle/
+**/android/local.properties
+**/android/key.properties
+**/android/**/build/
+**/android/captures/
+*.jks
+*.keystore
+*.apk
+*.aab
+hs_err_pid*.log
+
+# IDE and OS
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Backend runtime and credentials
+/.env
+/.env.*
+!/.env.example
+backend/node_modules/
+backend/.env
+backend/.env.*
+!backend/.env.example
+npm-debug.log*

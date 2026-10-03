@@ -1,0 +1,34 @@
+name: layanan_desa_cepoko
+description: Aplikasi layanan dan pengaduan warga Kelurahan Cepoko, Gunungpati.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=3.8.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  http: ^1.6.0
+  file_picker: ^10.3.6
+  lucide_icons_flutter: ^3.1.21
+  shadcn_ui: ^0.27.2
+  intl: ^0.20.3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+dependency_overrides:
+  path_provider_android: 2.2.23
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/branding/
+    - assets/images/
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: assets/branding/launcher.png
+  adaptive_icon_background: '#1E5631'
+  adaptive_icon_foreground: assets/branding/foreground.png

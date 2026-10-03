@@ -1,0 +1,21 @@
+{
+  "name": "portal-pengaduan-desa-cepoko",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portal pelayanan dan pengaduan warga Kelurahan Cepoko, Gunungpati.",
+  "type": "module",
+  "scripts": {
+    "api:dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "db:setup": "node scripts/init-db.js",
+    "test": "node --test",
+    "test:e2e": "node scripts/smoke-e2e.mjs",
+    "test:e2e:neon": "node scripts/integration-e2e.mjs"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.2",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "zod": "^4.0.5"
+  }
+}
